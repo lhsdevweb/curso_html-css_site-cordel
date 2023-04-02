@@ -1,0 +1,19 @@
+@charset "UTF-8"
+* { margin: 0px; padding: 0px }
+
+body {background-color: darkgray; height: 100vh;}
+/* CABEÇALHO */
+header {background-color: black; color: white; text-align: center;}
+h1 {padding-top: 50px; font-variant: small-caps;} /* text-transform: */
+header > p {padding-bottom: 50px;}
+a {color: white; text-decoration: none; font-weight: bolder;}
+a:hover {text-decoration: underline;}
+
+/* CONTEÚDO PRINCIPAL */
+section {padding-top: 10vh; padding-bottom: 10vh; /* 10% da altura da tela */
+         line-height: 2em; padding-left: 30px;} 
+.fundo-branco {background-color: white;}
+.fundo-imagem {}
+
+/* RODAPÉ */
+footer {background-color: black; color: white; text-align: center; padding: 10px;}
