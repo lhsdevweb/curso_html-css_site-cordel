@@ -1,17 +1,28 @@
 @charset "UTF-8"
-* { margin: 0px; padding: 0px }
+* { margin: 0px; padding: 0px; } 
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+:root {--fonte1: Verdana, Geneva, Tahoma, sans-serif; 
+       --fonte2: 'Passion One', cursive;
+       --fonte3: 'Sriracha', cursive;}
 
-body {background-color: darkgray; height: 100vh;}
+body {margin: 0px; background-color: darkgray; font-family: var(--fonte1);} 
+/* testei com o 'height: 100vh;' e 'min-height: 100vh;' e não entendi a diferença */
+
 /* CABEÇALHO */
-header {background-color: black; color: white; text-align: center;}
-h1 {padding-top: 50px; font-variant: small-caps;} /* text-transform: */
-header > p {padding-bottom: 50px;}
+header {background-color: black; color: white; text-align: center; 
+        padding-top: 20px; padding-bottom: 15px; }
+h1 {font-variant: small-caps; font-family: var(--fonte2); font-size: 5vw; 
+/* 'font-variant' ou 'text-transform: uppercase' - todas as letras maiúsculas */
+    margin-top: 0px; margin-bottom: 0px;} 
+header > p {margin-top: 0px;}
 a {color: white; text-decoration: none; font-weight: bolder;}
 a:hover {text-decoration: underline;}
 
 /* CONTEÚDO PRINCIPAL */
 section {padding-top: 10vh; padding-bottom: 10vh; /* 10% da altura da tela */
-         line-height: 2em; padding-left: 30px;} 
+         line-height: 2em; padding-left: 60px; font-family: var(--fonte3); font-size: 4vh;} 
 .fundo-branco {background-color: white;}
 .fundo-imagem {}
 
