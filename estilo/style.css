@@ -12,19 +12,24 @@ body {margin: 0px; background-color: darkgray; font-family: var(--fonte1);}
 
 /* CABEÇALHO */
 header {background-color: black; color: white; text-align: center; 
-        padding-top: 20px; padding-bottom: 15px; }
+        padding-top: 20px; padding-bottom: 15px;}
 h1 {font-variant: small-caps; font-family: var(--fonte2); font-size: 5vw; 
 /* 'font-variant' ou 'text-transform: uppercase' - todas as letras maiúsculas */
     margin-top: 0px; margin-bottom: 0px;} 
-header > p {margin-top: 0px;}
+header > p {margin-top: 0px; font-size: 3vh}
 a {color: white; text-decoration: none; font-weight: bolder;}
 a:hover {text-decoration: underline;}
 
 /* CONTEÚDO PRINCIPAL */
 section {padding-top: 10vh; padding-bottom: 10vh; /* 10% da altura da tela */
-         line-height: 2em; padding-left: 60px; font-family: var(--fonte3); font-size: 4vh;} 
+         line-height: 2em; padding-left: 60px; font-family: var(--fonte3); font-size: 2vw;} 
 .fundo-branco {background-color: white;}
-.fundo-imagem {}
+.fundo-imagem {box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.411);
+               background-size: cover; background-attachment: fixed}
+.fundo-imagem > p {background-color: rgba(0, 0, 0, 0.527); color: white;
+                    display: inline-block; padding: 10px; text-shadow: 2px 2px 2px black}
+#cordel-tec {background-image: url(../imagens/cordel_tec.png)}
+#cordel-moderno {background-image: url(../imagens/cordel_moderno.jpg)} 
 
 /* RODAPÉ */
 footer {background-color: black; color: white; text-align: center; padding: 10px;}
