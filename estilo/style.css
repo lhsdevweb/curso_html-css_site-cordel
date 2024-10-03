@@ -32,4 +32,28 @@ section {padding-top: 10vh; padding-bottom: 10vh; /* 10% da altura da tela */
 #cordel-moderno {background-image: url(../imagens/cordel_moderno.jpg)} 
 
 /* RODAPÉ */
-footer {background-color: black; color: white; text-align: center; padding: 10px;}
+footer {background-color: black; color: white; padding: 20px; line-height: 1.5em;}
+footer a {color: yellow; text-decoration: none;}
+footer a:hover {text-decoration: underline;} 
+
+footer div {display: flex; justify-content: center;}
+#paragrafo3 {display: none;}
+#paragrafo4 {display: none;}
+
+@media (max-width: 900px) {
+  #paragrafo2 {display: none;}
+  #paragrafo3 {display: block;}
+  #paragrafo3 div {display: flex; justify-content: center;}
+}
+
+@media (max-width: 610px) {
+  footer {font-size: .7em;}
+}
+
+@media (max-width: 410px) {
+  #paragrafo1 {display: block; text-align: center;}
+  #paragrafo1 .espaço {display: none;}
+  #paragrafo3 {display: none;}
+  #paragrafo4 {display: block;}
+  #paragrafo4 div {display: flex; justify-content: center;}
+}
