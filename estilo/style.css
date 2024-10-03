@@ -32,7 +32,7 @@ section {padding-top: 10vh; padding-bottom: 10vh; /* 10% da altura da tela */
 #cordel-moderno {background-image: url(../imagens/cordel_moderno.jpg)} 
 
 /* RODAPÉ */
-footer {background-color: black; color: white; padding: 20px; line-height: 1.2em;}
+footer {background-color: black; color: white; padding: 20px;}
 footer a {color: yellow; text-decoration: none;}
 footer a:hover {text-decoration: underline;} 
 
