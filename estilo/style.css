@@ -50,7 +50,7 @@ footer div {display: flex; justify-content: center;}
   footer {font-size: .7em;}
 }
 
-@media (max-width: 410px) {
+@media (max-width: 430px) {
   #paragrafo1 {display: block; text-align: center;}
   #paragrafo1 .espaço {display: none;}
   #paragrafo3 {display: none;}
